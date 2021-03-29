@@ -1,0 +1,290 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header{
+    display: block;
+    background-color:rgb(51, 158, 185);
+    width: 80%;
+    height: 25%;
+    position: fixed;
+    top: 0;
+    left: 15%;;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.header h3{
+display: block;
+color: rgb(255, 255, 255);
+width: 25%;
+text-align: justify;
+font-family: sans-serif;
+}
+
+.header p{
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+
+.navegacion{
+display: block;
+background-color:rgb(7, 7, 7);
+height: 100%;
+width: 15%;
+position: fixed;
+box-sizing: border-box;
+}
+
+.navegacion ul{
+    display: block;
+    padding: 40px;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+.navegacion li a{
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+    color: white;
+}
+
+.navegacion li:hover{
+    filter: brightness(0.5);
+    transition: 0.5s;
+}
+
+
+.partecuerpo{
+display: block;
+background-color:rgb(221, 188, 38);
+width: 80%;
+height: 25%;
+position: fixed;
+top: 25%;
+left: 15%;
+padding: 20px;
+box-sizing: border-box;
+}
+
+
+.partecuerpo h3{
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 25%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+
+.partecuerpo ul{
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.partecuerpo tr{
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+
+
+.partecuerpo2{
+    display: block;
+    background-color:rgb(255, 153, 0);
+    width: 80%;
+    height: 25%;
+    position: fixed;
+    top: 50%;
+    left: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.partecuerpo2 h3{
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 25%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+
+.partecuerpo2 p{
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.partecuerpo2 tr{
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 70%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+
+.partecuerpo3{
+    display: block;
+    background-color:rgb(136, 2, 36);
+    width: 80%;
+    height: 25%;
+    position: fixed;
+    top: 75%;
+    left: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.partecuerpo3 h3{
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 25%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+
+.partecuerpo3 p{
+    display: block;
+    color: rgb(255, 255, 255);;
+    width: 80%;
+    text-align: justify;
+    font-family: sans-serif;
+
+}
+
+.partecuerpo3 tr{
+    display: block;
+    color: rgb(255, 255, 255);;
+    width: 70%;
+    text-align: justify;
+    font-family: sans-serif;
+
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.animal{
+    display: block;
+    background-color:rgb(243, 198, 220);
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.animal h3{
+    display: block;
+    color: rgb(255, 255, 255);;
+    font-family: sans-serif;
+}
+
+.ubicacion{
+    display: block;
+    background-color:rgb(173, 211, 211);
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.ubicacion h3{
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 25%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+
+.ubicacion p{
+    display: block;
+    color: rgb(255, 255, 255);;
+    width: 80%;
+    text-align: justify;
+    font-family: sans-serif;
+
+}
+
+.nosotros{
+    display: block;
+    background-color:rgb(173, 211, 211);
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nosotros h3{
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 25%;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.nosotros p{
+    display: block;
+    color: rgb(255, 255, 255);;
+    width: 80%;
+    text-align: justify;
+    font-family: sans-serif;
+
+}
+
+.barranegra{
+    display: block;
+    background-color:rgb(7, 7, 7);
+    height: 100%;
+    width: 5%;
+    position: fixed;
+    right: 0%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-whidth: 400px){
+    .contenedor{
+        width: 100%;
+    }
+
+}
